@@ -1,0 +1,17 @@
+{
+  "name": "prory-tether-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "http-server html",
+    "upload": "rsync -av html/ lolipop:~/web/prory-test"
+  },
+  "keywords": [],
+  "author": "piouc <piou@hotmail.co.jp> (https://piouc.dev/)",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
